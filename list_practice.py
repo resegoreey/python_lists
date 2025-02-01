@@ -57,3 +57,23 @@ item_replacement = input("What would you like to replace the item with?: ")
 fruits_list[user_index] = item_replacement
 print(f"""Here is the list with your replacement:
 fruits = {fruits_list}""")
+print()
+
+#Add and Remove Elements
+print(f"fruits = {fruits_list}")
+
+#user chooses the fruit to add at the end of the list
+add_item = input("Which fruit would you like to add? ")
+
+#the item is added to the list using the append method
+fruits_list.append(add_item)
+print(f"""Here is your list with the item you added:
+fruits = {fruits_list}""")
+
+#user chooses which fruit they would like to remove
+remove_item = input("Which fruit would you like to remove? ")
+
+#the item is removed using the remove method
+fruits_list.remove(remove_item)
+print(f"""Here is your modified list with the item removed:
+fruits = {fruits_list}""")
