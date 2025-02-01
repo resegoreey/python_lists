@@ -43,4 +43,17 @@ print(f"List 1 = {list1}")
 print(f"The length of l1ist is: {len(list1)}")
 print(f"List 2 = {list2}")
 print(f"The length of l1ist is: {len(list2)}")
+print()
 
+#Modify List
+print(f"""We will use the fruits list
+fruits = {fruits_list}""")
+#user should enter the index of the item they want to modify
+user_index = int(input("Enter the index of the item you want to change: "))
+
+#user then enters the value they want to replace the item with
+item_replacement = input("What would you like to replace the item with?: ")
+#modify the item based on the index
+fruits_list[user_index] = item_replacement
+print(f"""Here is the list with your replacement:
+fruits = {fruits_list}""")
