@@ -23,3 +23,6 @@ This is a program that calculates and prints the length of a list.
 # Modify List
 
 This is a program that modifies an element in a list (e.g., changes the value of the third element) based on the user prompt
+
+# Add and Remove Elements
+This is a program that adds an element to the end of a list and removes an element from the list.
