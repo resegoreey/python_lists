@@ -17,3 +17,12 @@ range_2 = int(input("Enter the 2nd number: "))
 
 subset =  fruits_list[range_1:range_2]
 print(f"Here is your accessed items {subset}")
+print()
+
+#List Concatenation
+list1 = ["a", "b", "c", "d"]
+list2 = ["e", "f", "g", "h"]
+print(f"""list 1 = {list1}
+list 2 = {list2}""")
+list1.extend(list2)
+print(f"Your new list is: {list1}")
