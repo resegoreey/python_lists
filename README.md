@@ -7,3 +7,7 @@ This is a program that accesses and prints specific elements from a list with th
 # List Slicing
 
 This is a program that slices a list to get a subset of elements and prints the result.
+
+# List Concatenation
+
+This is a program that concatenates two lists and prints the combined list.
