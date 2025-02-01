@@ -15,3 +15,7 @@ This is a program that concatenates two lists and prints the combined list.
 # List Repetition
 
 This is a program that repeats a list a given number of times and prints the result.
+
+# List Length
+
+This is a program that calculates and prints the length of a list.
