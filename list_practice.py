@@ -77,3 +77,19 @@ remove_item = input("Which fruit would you like to remove? ")
 fruits_list.remove(remove_item)
 print(f"""Here is your modified list with the item removed:
 fruits = {fruits_list}""")
+print()
+
+#Find Element in List
+print(f"fruits = {fruits_list}")
+#user checks if a fruit is in the fruits list
+check_item = input("Which fruit do you want to check? ")
+if check_item in fruits_list:
+    print(f"{check_item} is in fruit list")
+else:
+    print(f"{check_item} is not in the fruits list")
+
+#List to String Conversion
+theList = ["Hello", "World!"]
+print(f"Here is the list: {theList}")
+new_string = ' '.join(theList)
+print(new_string)
