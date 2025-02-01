@@ -19,3 +19,7 @@ This is a program that repeats a list a given number of times and prints the res
 # List Length
 
 This is a program that calculates and prints the length of a list.
+
+# Modify List
+
+This is a program that modifies an element in a list (e.g., changes the value of the third element) based on the user prompt
