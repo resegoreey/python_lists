@@ -33,3 +33,14 @@ print(f"List of fruits: {fruits_list}")
 repeat_number = int(input("How many time would you like to repeat the list?: "))
 repeated_list = fruits_list * repeat_number
 print(repeated_list)
+print()
+
+#List Length
+print("Let's find the length of our lists")
+print(f"fruits List = {fruits_list}")
+print(f"The length of the fruits list is: {len(fruits_list)}")
+print(f"List 1 = {list1}")
+print(f"The length of l1ist is: {len(list1)}")
+print(f"List 2 = {list2}")
+print(f"The length of l1ist is: {len(list2)}")
+
