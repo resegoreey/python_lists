@@ -26,3 +26,10 @@ print(f"""list 1 = {list1}
 list 2 = {list2}""")
 list1.extend(list2)
 print(f"Your new list is: {list1}")
+print()
+
+#List Repetition
+print(f"List of fruits: {fruits_list}")
+repeat_number = int(input("How many time would you like to repeat the list?: "))
+repeated_list = fruits_list * repeat_number
+print(repeated_list)
